@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajus.servicenincom.SubActivity.FragmentEvent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="wedding">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/wedding"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Wedding and Birthday event"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="picnic">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/picnic"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Picnic Event"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="cultural">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/caltural"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Cultural Ceremony"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="corporate">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/corporate"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Corporate Event"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

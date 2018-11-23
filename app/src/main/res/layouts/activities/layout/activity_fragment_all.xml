@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rajus.servicenincom.FragmentAllActivity">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/main_page_toolbar"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/rent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rent and Transport"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+
+            <Button
+                android:id="@+id/tour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tour and Travels"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+
+            <Button
+                android:id="@+id/event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Management"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+            <Button
+                android:id="@+id/regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regular Services"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+            <Button
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home and office Equipment"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+            <Button
+                android:id="@+id/pack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pack and Shift"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+            <Button
+                android:id="@+id/food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Supply"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+            <Button
+                android:id="@+id/it"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It Services"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+            <Button
+                android:id="@+id/business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Management"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:onClick="changeFragment"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+</LinearLayout>

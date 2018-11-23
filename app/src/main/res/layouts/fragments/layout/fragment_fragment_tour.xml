@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajus.servicenincom.SubActivity.FragmentTour">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="tourPackage">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/tour2"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Tour Package"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="ticket">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ticket"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Online Ticketing"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="hotel">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/hotel"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Hotel Booking"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="visa">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/visa"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Visa Processing"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajus.servicenincom.SubActivity.FragmentIt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="software">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/android"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Software And Apps Development"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="domain">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/domain"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Domain and Hosting"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="website">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/web"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Website And E-Commerce"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:onClick="graphics">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/graphics"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Graphics Design and Animation"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:onClick="marketing">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/digital"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Digital Marketing Solution"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

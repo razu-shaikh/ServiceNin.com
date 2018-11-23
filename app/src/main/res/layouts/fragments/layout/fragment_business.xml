@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.rajus.servicenincom.SubActivity.BusinessFragment">
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:gravity="center">
+     <Button
+         android:layout_width="120dp"
+         android:layout_height="110dp"
+         android:padding="4dp"
+         android:text="Credit Management "
+         android:textSize="15sp"
+         android:textAlignment="center"
+         android:textColor="#083b07"
+         android:onClick="credit"
+         android:layout_marginRight="20dp" />
+
+     <Button
+         android:layout_width="120dp"
+         android:layout_height="110dp"
+         android:padding="4dp"
+         android:text="Recovery Service "
+         android:textSize="15sp"
+         android:textAlignment="center"
+         android:textColor="#0c410b"
+         android:onClick="recovery" />
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:padding="4dp"
+            android:text="M.I.S Management "
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="#083b07"
+            android:onClick="mis"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:padding="4dp"
+            android:text="B. P. O   Service "
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="#054311"
+            android:onClick="bpo"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

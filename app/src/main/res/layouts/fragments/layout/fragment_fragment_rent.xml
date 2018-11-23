@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajus.servicenincom.SubActivity.FragmentRent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="carRent">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/carr"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Car Rental"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="trackAndPickUp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/track"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Track and PicUp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:onClick="ambulance">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ambu"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Ambulance"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#eceaea"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:onClick="picnicTransport">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/picnic"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Picnic Transport"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333132"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

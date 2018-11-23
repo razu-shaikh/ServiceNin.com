@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajus.servicenincom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/servicenin"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplishActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FragmentAllActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".DailyLaunch.DisplayImagesActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".DailyLaunch.DisplayItemActivity" />
+        <activity android:name=".SendPackage.SendNotification" />
+        <activity android:name=".CarRent.DisplayCarActivity" />
+        <activity android:name=".SendPackage.RentNotification" />
+        <activity android:name=".ItPackage.ShowCompanyActivity" />
+        <activity android:name=".TourAndTravels.ShowTourActivity" />
+        <activity android:name=".EventManagement.ShowEventActivity" />
+        <activity android:name=".PackAndShift.ShowPackActivity" />
+        <activity android:name=".RegularService.ShowRegularActivity" />
+        <activity android:name=".BusinessManagement.ShowManagementActivity" />
+        <activity android:name=".OfficeAndHomeEquipment.ShowHomeAndOfficeActivity" />
+        <activity android:name=".OfficeAndHomeEquipment.ShowEquipmentActivity"></activity>
+    </application>
+
+</manifest>
